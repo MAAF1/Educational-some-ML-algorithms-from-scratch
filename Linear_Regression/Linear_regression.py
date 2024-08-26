@@ -27,7 +27,7 @@ class LinearModel:
                 cost += err
 
             return float((1/(2*m)) * cost)
-        def gradients(weights): ## partial deravatives of the MSE function based on each feature (gradients)
+        def gradients(weights): ## partial derivatives of the MSE function based on each feature (gradients)
             y_pd = np.dot(X,weights)
             g = 0
             for i in range(m):
@@ -45,7 +45,7 @@ class LinearModel:
             self.weights = cur_weight
             cost = cost_func(last_weight) ## new update means new cost and error update
             iter += 1
-        return cost
+        # you can check for iteration history or any other variables
     def fit(self,X,y_true):
         self._learning_process(X,y_true,self.weights, self.learning_rate, self.precision, self.max_iter, self.fit_intercept)
         return self.weights
