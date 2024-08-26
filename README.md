@@ -3,7 +3,8 @@
 
 # Explanation
 ## Linear Regression Implementation:
-## An awesome notebook that explains the gradient descent and weights updating process using MSE function with explanation of perprocessing the data
+### An implementation of linear regression model using only numpy 
+![alt text](https://github.com/MAAF1/Educational-some-ML-algorithms-from-scratch/blob/main/linearform11.png)
 # Backpropagation Implementation (Iterative approach):
 ## Feed-forward neural network structure with a simple 2 layers network 
 ## Forward propagation and backward error propagation algorithms
